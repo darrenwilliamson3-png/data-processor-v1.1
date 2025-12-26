@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "user": "alice",
+      "total_events": 1,
+      "success": 1,
+      "fail": 0,
+      "failure_rate": 0.0,
+      "event_types": [
+        "login"
+      ]
+    },
+    {
+      "user": "bob",
+      "total_events": 1,
+      "success": 0,
+      "fail": 1,
+      "failure_rate": 100.0,
+      "event_types": [
+        "login"
+      ]
+    },
+    {
+      "user": "charles",
+      "total_events": 1,
+      "success": 0,
+      "fail": 1,
+      "failure_rate": 100.0,
+      "event_types": [
+        "login"
+      ]
+    },
+    {
+      "user": "David",
+      "total_events": 1,
+      "success": 1,
+      "fail": 0,
+      "failure_rate": 0.0,
+      "event_types": [
+        "login"
+      ]
+    },
+    {
+      "user": "Erica",
+      "total_events": 1,
+      "success": 1,
+      "fail": 0,
+      "failure_rate": 0.0,
+      "event_types": [
+        "login"
+      ]
+    }
+  ],
+  "by_hour": {
+    "2023-12-25 10": {
+      "total_events": 3,
+      "success": 1,
+      "fail": 2
+    },
+    "2023-12-25 11": {
+      "total_events": 2,
+      "success": 2,
+      "fail": 0
+    }
+  }
+}
